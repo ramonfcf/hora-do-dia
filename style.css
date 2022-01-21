@@ -1,0 +1,47 @@
+body {
+    font: normal 20px Arial;
+    background: rgba(182, 194, 216, 0.644);
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    color: white;
+    text-shadow: 2px  2px 0px rgba(0, 0, 0, 0.445);
+}
+
+section {
+    width: 45%;
+    height: 33%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    height: auto;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(27, 27, 27, 0.418);
+}
+
+section div {
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+section div img {
+    transition: 1s all;
+    width: 50%;
+}
+
+section div img:hover {
+    transform: scale(0.9) ;
+    transition: 1s all;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+

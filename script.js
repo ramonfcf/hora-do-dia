@@ -2,7 +2,7 @@ function carrega() {
     var horario =  document.getElementById('horario');
     var foto = document.getElementById('foto');
      var data = new Date();
-    var hora = 13;
+    var hora = data.getHours();
     var min = data.getMinutes();
     horario.innerHTML = `Agora são: <strong>${hora} horas e ${min} minutos.</strong>`;
 
